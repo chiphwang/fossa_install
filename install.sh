@@ -139,7 +139,7 @@ kubectl create ns fossa
 #Create FOSSA directories
 cd /opt; mkdir fossa; cd fossa; mkdir database; mkdir minio; chmod 777 database; chmod 777 minio
 # Create image pull secret for Quay to pull images
-cd /opt/FossaAllinOne
+cd cd /opt/fossa_helm/
 
 # install helm
 curl -LO https://git.io/get_helm.sh
@@ -158,8 +158,6 @@ kubectl create clusterrolebinding tiller \
 
 helm init --service-account tiller
 
-# Move to working directory
 
-cd /opt/fossa_helm/
 
 
