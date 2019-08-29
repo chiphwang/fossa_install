@@ -158,6 +158,6 @@ kubectl create clusterrolebinding tiller \
 
 helm init --service-account tiller
 
-
-
+# move to working directory
+cd /opt/fossa_helm
 
