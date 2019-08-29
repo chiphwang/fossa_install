@@ -133,7 +133,7 @@ kubectl taint nodes --all node-role.kubernetes.io/master-
 ###################################################################################################
 cd /opt/
 #Clone Github repo for Fossa
-git clone https://github.com/chiphwang/FossaAllinOne.git
+git clone https://github.com/chiphwang/fossa_helm.git
 #create FOSSA namespace
 kubectl create ns fossa
 #Create FOSSA directories
